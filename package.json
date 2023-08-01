@@ -1,0 +1,36 @@
+{
+  "name": "osmosis-cl-monitor",
+  "version": "1.0.0",
+  "description": "Node.js service to monitor osmosis supercharged positions.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js",
+    "build-swagger": "node swagger.js"
+  },
+  "keywords": [
+    "osmosis",
+    "express",
+    "service"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasbanza/osmosis-cl-monitor.git.git"
+  },
+  "author": "jasbanza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jasbanza/osmosis-cl-monitor/issues"
+  },
+  "homepage": "https://github.com/jasbanza/osmosis-cl-monitor#readme",
+  "dependencies": {
+    "convert-bech32-address": "^1.0.4",
+    "express": "^4.18.2",
+    "js-console-log-colors": "^2.0.0",
+    "node-fetch": "^2.6.12",
+    "swagger-autogen": "^2.23.5",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.0"
+  }
+}

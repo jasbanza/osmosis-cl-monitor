@@ -1,0 +1,7 @@
+alert if near range bounds
+alert if out of bounds
+IL monitor
+alert if IL above threshold
+alert if ROI target met
+projected ROI at various volume levels
+
